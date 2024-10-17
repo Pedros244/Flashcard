@@ -1,38 +1,34 @@
-
 body{
-
-    background-color: bisque;
-
+    background-color: bisque;  
     font-family: Bai Jamjuree;
 
+    
+#container{
+   display: flax ;
 }
 
-
-
-footer {
-
-    background-color: black;
-
-    color: white;
-
-    position: fixed;
-
-    bottom: 0;
-
-    width: 100%;
-
-    height: 2rem;
+.cartao{
+    margin: 1rem 1rem;
+    backgroud-color: aqua;
+    height: 20rem
+    flex-basis: calc(33% - 6rem);
 
 }
+   
+    .cartao__conteúdo {
+        text-aling:center;
+        backgroud-color: aquamarine;
+
+    }
+    .cartao___conteudo h3 {
+        backgroud- color: tomato;
+        text-align:laft;
+        padding: 0.5rem;
+        position: absolute;
+        margin:0.6rem;
+        border-redius: 0.6rem;
+        font-size: 1vw;
+
+    
 
 
-
-footer p {
-
-    text-align: center;
-
-    font-size: 0.6rem;
-
-    margin-top: 0.5rem;
-
-}
